@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>RJ Couriers - Home</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head><body>
+
+<header class="header">
+  <div class="brand"><i class="fa-solid fa-truck-fast"></i><span>RJ Couriers</span></div>
+  <nav class="nav" aria-label="Main navigation">
+    <a href="home.html"><i class="fa-solid fa-house"></i> Home</a>
+    <a href="booking.html"><i class="fa-solid fa-box"></i> Booking</a>
+    <a href="tracking.html"><i class="fa-solid fa-location-crosshairs"></i> Tracking</a>
+    <a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a>
+    <a href="dashboard.html"><i class="fa-solid fa-user-gear"></i> Dashboard</a>
+  </nav>
+  <button class="hamburger" onclick="toggleNav()"><i class="fa-solid fa-bars"></i></button>
+</header>
+
+<main class="container">
+  <section class="hero card">
+    <div class="left">
+      <h1>Fast. Reliable. RJ Couriers.</h1>
+      <p class="small">We deliver parcels across cities with real-time tracking and competitive rates. Demo site built for project submission.</p>
+      <div class="cta"><a class="btn" href="booking.html"><i class="fa-solid fa-box"></i> Book a Package</a></div>
+    </div>
+    <div class="right" style="min-width:220px;text-align:right;">
+      <img src="" alt="" style="width:180px;opacity:0.95" />
+    </div>
+  </section>
+
+  <div class="grid">
+    <div class="card">
+      <h3><i class="fa-solid fa-gauge-high"></i> Dashboard</h3>
+      <p class="small">Admin dashboard to view bookings.</p>
+      <a href="dashboard.html">Open Dashboard →</a>
+    </div>
+    <div class="card">
+      <h3><i class="fa-solid fa-box"></i> Booking</h3>
+      <p class="small">Create a booking with pickup date and address. Stored locally for demo.</p>
+      <a href="booking.html">Book Now →</a>
+    </div>
+    <div class="card">
+      <h3><i class="fa-solid fa-location-crosshairs"></i> Track</h3>
+      <p class="small">Enter AWB to find package status (demo uses stored data).</p>
+      <a href="tracking.html">Track Package →</a>
+    </div>
+  </div>
+</main>
+
+<footer class="container footer">
+  <div class="small">RJ Couriers &copy; 2025 · Demo site for assignment. Data stored in browser localStorage.</div>
+</footer>
+
+<script src="site.js"></script>
+</body></html>

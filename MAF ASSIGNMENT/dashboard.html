@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>RJ Couriers - Dashboard</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head><body>
+
+<header class="header">
+  <div class="brand"><i class="fa-solid fa-truck-fast"></i><span>RJ Couriers</span></div>
+  <nav class="nav" aria-label="Main navigation">
+    <a href="home.html"><i class="fa-solid fa-house"></i> Home</a>
+    <a href="booking.html"><i class="fa-solid fa-box"></i> Booking</a>
+    <a href="tracking.html"><i class="fa-solid fa-location-crosshairs"></i> Tracking</a>
+    <a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a>
+    <a href="dashboard.html"><i class="fa-solid fa-user-gear"></i> Dashboard</a>
+  </nav>
+  <button class="hamburger" onclick="toggleNav()"><i class="fa-solid fa-bars"></i></button>
+</header>
+
+<main class="container">
+  <h2>Admin Dashboard</h2>
+  <section id="dashboard-list" class="card">
+    <!-- bookings will render here -->
+  </section>
+</main>
+
+<footer class="container footer">
+  <div class="small">RJ Couriers &copy; 2025 · Demo site for assignment. Data stored in browser localStorage.</div>
+</footer>
+
+<script src="site.js"></script>
+</body></html>
